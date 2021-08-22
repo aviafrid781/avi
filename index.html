@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="grid grid-cols-2 ">
+        <div class="w-3/4 mx-auto mt-4">
+            <img src="images/mac.png" alt="">
+        </div>
+        <div class="w-11/12 mt-4 mx-auto ">
+            <h1 class="text-4xl bold w">Customize your Blue 24-inch i Mac with Apple M1 chip.</h1>
+
+            <p class="text-xs mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore maxime ipsa porro,
+                impedit quod animi culpa ea voluptas officiis reprehenderit a voluptatibus veritatis neque harum
+                obcaecati nam? Impedit, mollitia velit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+                tempora, perspiciatis perferendis sunt alias nulla.</p>
+
+
+            <!-- Memory Section  -->
+            <h3 class="text-sm mt-8 font-bold">Memory</h3>
+            <div class="grid grid-cols-2 mt-2 ">
+
+                <div>
+
+                    <button id="memory-8gb"
+                        class=" text-xs bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ... ">8GB
+                        unified memory</button>
+
+                </div>
+                <div>
+                    <button id="memory-16gb"
+                        class="  text-xs bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">16GB
+                        unified memory</button>
+                </div>
+            </div>
+
+            <!-- storage section       -->
+            <h3 class="text-sm mt-8 font-bold">Storage</h3>
+            <div class="grid grid-cols-3 mt-2 ">
+                <div>
+                    <button id="storage-256gb"
+                        class="text-xs  bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">256GB
+                        SSD storage</button>
+
+                </div>
+                <div>
+                    <button id="storage-512gb"
+                        class="text-xs  bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">
+                        512GB SSD storage</button>
+                </div>
+                <div>
+                    <button id="storage-1tb"
+                        class="text-xs  bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">1TB
+                        SSD storage</button>
+                </div>
+            </div>
+
+            <!-- Delevery option -->
+
+            <h3 class="text-sm mt-8 font-bold">Choose your Delevery option</h3>
+            <div class="grid grid-cols-2 mt-2 ">
+
+                <div>
+
+                    <button id="free-delevery"
+                        class=" text-xs bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">Friday
+                        Aug 25, Free Delevery</button>
+
+                </div>
+                <div>
+                    <button id="charge-delevery"
+                        class="  text-xs bg-white-200 border-2 rounded p-2 border-black  border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent ...">Friday
+                        Aug 21, Delivery charge $20</button>
+                </div>
+            </div>
+
+
+            <!-- price total section -->
+            <div>
+
+                <div class="mt-16">
+                    <label class="font-bold text-sm" for="">Best Price</label>
+                    <h3 class="inline text-sm mx-36">$<span id="best-price">1299</span></h3>
+
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <label class="font-bold text-sm" for=""> Extra memory cost</label>
+                    <h3 class="inline text-sm mx-24 ">$<span id="extra-memory-cost">0</span></h3>
+
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <label class="font-bold text-sm" for=""> Extra storage cost</label>
+                    <h3 class="inline text-sm mx-24 ">$<span id="extra-storage-cost">0</span></h3>
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <label class="font-bold text-sm" for="">Delevery charge</label>
+                    <h3 class="inline text-sm mx-28 ">$<span id="delevery-charge">0</span>
+                    </h3>
+                </div>
+                <hr class="last-hr">
+                <div class="">
+                    <label class="font-bold text-sm" for="">Total Price</label>
+                    <h3 class="inline text-sm mx-36 ">$<span id="total-price">0</span></h3>
+                </div>
+
+            </div>
+            <div class="mt-16">
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
